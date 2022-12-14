@@ -104,6 +104,11 @@ footer {
       margin: 0;
       padding: 0;
  }
+  ul, ol, li {
+      width: auto;
+      margin: auto;
+      font-size: 1.2em;
+ }
   #Lihapullat{
       float: left;
  }
