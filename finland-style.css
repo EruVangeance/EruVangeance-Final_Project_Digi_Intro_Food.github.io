@@ -34,8 +34,8 @@ figure {
   margin: 1em auto;
 }
 img {
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 320px;
+  max-height: 320px;
 }
 figcaption {
   background-color: rgba(255, 255, 255, 0.8);
