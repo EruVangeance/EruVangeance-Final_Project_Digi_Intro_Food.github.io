@@ -1,0 +1,81 @@
+body {
+  background-color: #5db8c4;
+  font-family: sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1em;
+}
+
+nav {
+  display: flex;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+figure {
+  position: relative;
+  margin: 1em auto;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+figcaption {
+  background-color: rgba(255, 255, 255, 0.8);
+  bottom: 4px;
+  font-size: 0.9em;
+  font-style: italic;
+  padding: 0.5em;
+  position: absolute;
+  max-width: 100%;
+  display: block;
+  margin-top: 0.5em;
+}
+
+.CopyRight{
+  color:#232323;
+  font-size:11px;
+  margin: 0 auto;
+  position:relative;
+  top: 1px;
+  text-align: center;
+  padding-bottom: 2px;
+  }
+
+  .validator {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 50%;
+  }
+  
+  footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background: rgb(153, 221, 248);
+    position:relative; 
+    bottom: 0;
+    font-size: 1rem;
+    width: 100%;
+    border: solid 2px #232323;
+  }
+  .author{
+    font-size: 1rem;
+  }

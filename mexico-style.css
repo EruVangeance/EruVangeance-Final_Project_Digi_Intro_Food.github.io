@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+nav {
+  display: flex;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-around;
+}
+h1 {
+  text-align: center;
+  max-width: 100% ;
+  font-size: 4em;
+}
+.entry{
+  text-align: center;
+  text-align: center;  
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  text-overflow: ellipsis;
+  
+}
+figure {
+  position: relative;
+  margin: 1em auto;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+figcaption_top {
+  background-color: rgba(255, 255, 255, 0.8);
+  bottom: auto;
+  right: auto;
+  font-size: 2em;
+  font-style: italic;
+  padding: 0.5em;
+  position:absolute;
+  max-width: 100%;
+  display: block;
+  margin-top: 0.5em;
+}
+figcaption {
+  font-style: italic;
+  font-size: 12px;
+}
+
+img {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+article {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+table, th, td {
+  border:1px solid black;
+  text-align: center;
+  font-weight: bold;
+  font-size: auto;
+}
+
+.validator {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  height: 50%;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  background: rgb(153, 221, 248);
+  position:relative; 
+  bottom: 0;
+  font-size: 1rem;
+  width: 100%;
+  border: solid 2px #232323;
+  margin-top: 10px;
+}

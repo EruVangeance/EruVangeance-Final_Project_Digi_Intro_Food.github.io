@@ -1,0 +1,131 @@
+body {
+  background-color: #5db8c4;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-around;
+}
+h1 {
+  font-size: 2.7em;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 1.8em;
+}
+ul, ol, li {
+  width: 50%;
+  margin: auto;
+  font-size: 1.2em;
+}
+p {
+  font-size: 2.2em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  text-align: center;
+}
+figure {
+  position: relative;
+  margin: 1em auto;
+}
+img {
+  max-width: 400px;
+  max-height: 400px;
+}
+figcaption {
+  background-color: rgba(255, 255, 255, 0.8);
+  bottom: 4px;
+  font-size: 0.9em;
+  font-style: italic;
+  padding: 0.5em;
+  position: absolute;
+  max-width: 100%;
+  display: block;
+  margin-top: 0.5em;
+}
+#Lihapullat{
+  float: left;
+}
+#Graavilohi{
+  float: left;
+  padding-left: 5px;
+}
+#Hernekeitto{
+  float:right;
+}
+#Karjalanpiirakka{
+  float: right;
+  padding-right: 5px;
+}
+#Mämmi{
+  float: left;
+}
+#Korvapuusti{
+  float: left;
+  padding-left: 5px;
+}
+#Runebergintorttu{
+  float:right;
+}
+#Tippaleipä{
+  float: right;
+  padding-right: 5px;
+}
+.validator {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  height: 50%;
+}
+footer {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  background: rgb(153, 221, 248);
+  position:relative;
+  bottom: 0;
+  font-size: 1rem;
+  width: 100%;
+  border: solid 2px #232323;
+}
+.author{
+  font-size: 1rem;
+}
+@media only screen and (max-width: 800px) {
+  body {
+      background-color: #5db8c4;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+ }
+  #Lihapullat{
+      float: left;
+ }
+  #Graavilohi{
+      float: left;
+ }
+  #Hernekeitto{
+      float:right;
+ }
+  #Karjalanpiirakka{
+      float: right;
+ }
+  #Mämmi{
+      float: left;
+ }
+  #Korvapuusti{
+      float: left;
+ }
+  #Runebergintorttu{
+      float:right;
+ }
+  #Tippaleipä{
+      float: right;
+ }
+}
