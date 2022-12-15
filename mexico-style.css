@@ -62,7 +62,7 @@ img {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-article {
+.article {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
